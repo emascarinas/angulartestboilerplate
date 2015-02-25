@@ -1,0 +1,11 @@
+node_modules/
+platforms/
+plugins/
+nbproject/
+npm-debug.log
+coverage/
+instrumented/
+reports/
+coverages/
+coverage-e2e/
+bower_components/
