@@ -21,7 +21,7 @@ var Login = function () {
     this.mockLoginError = function () {
         var httpBackendMock = function () {
             angular.module('httpBackendMock', ['ngMockE2E'])
-                    .run(function ($httpBackend, configuration, invalidUsernamePassword) {
+                    .run(function ($httpBackend) {
                         $httpBackend.whenPOST('https://www.someapi.com/api').respond(401, {"mess":"Invalid username/password"});
                         $httpBackend.whenGET(/.*/).passThrough();
                     });
