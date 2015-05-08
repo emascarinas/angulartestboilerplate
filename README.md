@@ -11,7 +11,7 @@ coverage report should be under:  coverage/index.html
 
 e2e Test:
 
->>> use Gruntfile.e2e.js to run e2e test with coverage
+> use Gruntfile.e2e.js to run e2e test with coverage
 
 grunt test
 
